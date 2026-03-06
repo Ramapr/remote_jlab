@@ -20,7 +20,7 @@ on local pc:
 ```bash
 function jlab() {
     source ~/jup-serv/bin/activate  # path to venv # change 
-    python3 ~/remote/jup.py          
+    python3 ~/remote_jlab/jup.py          
     deactivate
 }
 ```
